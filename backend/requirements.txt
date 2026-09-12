@@ -1,0 +1,15 @@
+Flask
+Flask-SQLAlchemy
+Flask-JWT-Extended
+Flask-Cors
+Flask-Migrate
+Flask-Mail
+Flask-Limiter
+python-dotenv
+bcrypt
+gunicorn
+psycopg2-binary
+
+# 🔥 GOOGLE AUTH (REQUIRED)
+google-auth
+google-auth-oauthlib
