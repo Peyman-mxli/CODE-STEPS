@@ -1,0 +1,226 @@
+-We are going to create an application named (Code_Steps) , project named : "Code_steps"
+
+-This application will have  users as normal and vip and administrator and moderators, 
+
+-this application will has administrator as Head Admin who rules all application 
+and also will allows to create promote demote users  control panel ban users unban users ban ip unban ip create new lessons and objects and create new pages add or remove and modify everything necessary in dashboard and users panels and lessons and home works and chat groups . 
+
+-there will be page where users needs to purchase  to be vip user . 
+
+-first page will be started with  login  and register options and logo of the application and select language at up ! there is only 14 options for now  as English Persian Spanish Germany France and Chinese and Indian and Japanese and Portuguese and Italian and Arabic and Korean and Turkish and Russian
+
+-and if  user has already user and password will click on login in ! and in login page  it will saw the sections of  user name password  and link  below them it says forgot your password and forgot your user name  and return button 
+
+-when user click on register  it will ask for  
+
+first name :
+
+last name :
+
+Age:
+
+Sex:
+
+User name :
+
+Password:
+
+Confirm password:
+
+Nick name (will show as his or her name )
+
+Select photo(can be uploaded )
+
+Select Avatar (should be some avatars for select)
+
+Country:
+
+Phone number: (with code of country)
+
+Email address:(send verification code via Email button)
+
+Enter verification code (and verify button)
+
+Save and  Return buttons 
+
+When user click on save it will automatically create an  identification id system will give it for example a111111 , a111112, and go on ! important think is the numbers 
+a111111 to a111300 is saved for admins and  it is not available  to create identification id with those numbers 
+when user click on save it will automatically return to login page 
+
+Normal Users-login---------------------------------------------------------------
+after user logged in  will see the dashboard  at the left side  under dashboard  there is options  as 
+
+-Lessons / limited per day 
+-Chats / normal users are limited to chat, no more than 10 line chat per 12 hours .private chat also 20 line chat per day . can seen the chats if user open the chat room / can post inside chat / font and font color  is locked for normal users , can mute or unmute users (this include vip or normal users not admins or moderate) so when user mute someone , that means user will not able to see their chats anymore / voice chat is unavailable but able to listen to it but not speak 
+-Configuration will be able to change the password , mute list for unmute or mute 
+-Process completed % and how many days logged in 
+-Support : will be able to check usual question people may  have and chat with support team 
+-Buy VIP 
+-ban reason and date
+-Log out 
+
+VIP Users-login-------------------------------------------------------------------
+
+-Lessons unlimited
+-Chats / can open private chat with users / can send point to users / cam like or dislike users chats on chatroom /can mute or unmute users (this include vip or normal users not admins or moderate) so when user mute someone , that means user will not able to see their chats anymore 
+ voice chat is unavailable but able to listen to it but not speak 
+-Configuration - can change name color / will have option for change font size and 
+font color on chats / will have vip mark on their name and be able to change the color of it 
+there is option for change password  when click on it  , it will ask for current password , new password, confirm new password  / mute list for unmute or mute 
+-Process completed % and how many days logged in/ and getting diploma/ 
+-Support :  will be able to check usual question people may  have and chat with support team, 
+only vip and moderate users will be able to chat with support team  
+-Buy VIP 
+-ban reason and date
+-Log out 
+
+Moderate  users-login-------------------------------------------------------------
+
+-Lessons / unlimited
+
+-Chats / it will announced an moderate joined to chatroom (will show "moderate name" Joined to chatroom /  moderate can remove users from chat or invite users to chat /can send point to users / can like or dislike users chats on chatroom /can send photo or image or link to chat / can use stickers / cam mute or unmute users / can speak on chat via using voice button 
+
+-Configuration - can change name color / will have option for change font size and 
+font color on chats / will have Moderate mark on their name /mute list for unmute or mute 
+
+-Process completed % and how many days logged in/ and getting diploma/  
+
+-Support will be able to check usual question people may  have and chat with support team, 
+only vip  and moderate users will be able to chat with support team
+
+-Buy VIP
+
+-ban reason and date 
+
+-Log out 
+
+Administrators---------------------------------------------------------------------
+-lessons / can create lessons  can modify lessons or update them / can add new activity / 
+can add new home work / 
+Chats / in chat it will announced  an admin joined to chat room  / able to modify chats  remove or mute or ban users from chatrooms for hours or days or forever and that will update on  their dashboard ban reason and date , they will be able to see why they are banned and how long  /
+-User Management---------------------------------------------------------
+ Total users
+
+Active users today
+
+New registrations
+
+Online users
+
+Actions:----------------------------------------------------------------
+
+View user profile
+
+Ban / suspend users
+
+Reset passwords
+
+Assign roles (normal user , Vip user , Moderator, Administrator)
+
+View user activity history
+
+What admins can see:---------------------------------------------------------
+
+Live chat messages
+
+List of active chat rooms
+
+Users currently chatting
+
+Reported messages
+
+Admin  tools:-------------------------------------------------------------
+
+Delete messages
+
+Mute users
+
+Kick users from chat
+
+Ban users
+
+View chat logs/history
+
+Filter bad words automatically
+
+Admins can:
+
+Add new courses
+
+Edit lessons
+
+Upload coding exercises
+
+Delete inappropriate content
+
+Manage instructors
+
+
+Dashboard metrics:
+
+Total courses
+
+Total lessons completed
+
+Active learners
+
+Most popular course
+
+Average session time
+
+Graphs:
+
+Daily active users
+
+Course completion rate
+
+Chat activity
+
+Reports & Abuse System 🚩
+
+Users should be able to report messages or users.
+
+Admins can see:
+
+Reported users
+
+Reported chat messages
+
+Spam detection alerts
+
+Admin actions:
+
+Warn user
+
+Remove message
+
+Suspend account
+
+System Monitoring ⚙️
+
+Technical overview of the system.
+
+Admins can see:
+
+Server status
+
+Error logs
+
+Database activity
+
+API usage
+
+Announcements / Notifications 📢
+
+Admins can send messages to all users.
+
+Examples:
+
+Platform updates
+
+Maintenance notices
+
+New course announcements
+
+i already have a code_steps project folder created
+i already have a Flask project started and   i am using   VS Code

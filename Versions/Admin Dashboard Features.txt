@@ -1,0 +1,15 @@
+Admin Dashboard Features
+
+Administrator will see:
+
+Total users
+Active users
+Online users
+Chat activity
+Reports
+
+Head admin additionally sees:
+
+Server monitoring
+Database activity
+Analytics graphs

@@ -1,0 +1,16 @@
+Real-Time Voice Chat
+
+Voice chat will use:
+
+WebRTC
+Socket.IO signaling
+
+Roles that can speak:
+
+Moderator
+Administrator
+Head Admin
+
+Others:
+
+listen only

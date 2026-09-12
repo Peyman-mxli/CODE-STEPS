@@ -1,0 +1,72 @@
+Terminal Commands (Windows)
+
+Create folders
+mkdir backend
+mkdir frontend
+mkdir backend\app
+mkdir backend\app\models
+mkdir backend\app\routes
+mkdir backend\app\services
+mkdir backend\app\chat
+mkdir backend\app\utils
+Create files
+
+You can use notepad like you said:
+
+notepad backend\run.py
+notepad backend\requirements.txt
+notepad backend\app\__init__.py
+notepad backend\app\config.py
+
+Inside folders:
+
+notepad backend\app\models\__init__.py
+notepad backend\app\routes\__init__.py
+notepad backend\app\services\__init__.py
+notepad backend\app\chat\__init__.py
+notepad backend\app\utils\__init__.py
+
+Quick Command to See Your Structure
+
+After creating everything, run:
+
+tree
+
+or
+
+tree /f
+
+It should look like:
+
+CODE_STEPS
+│
+├── backend
+│   │
+│   ├── run.py
+│   ├── requirements.txt
+│   │
+│   └── app
+│       │
+│       ├── __init__.py
+│       ├── config.py
+│       │
+│       ├── models
+│       │   └── __init__.py
+│       │
+│       ├── routes
+│       │   └── __init__.py
+│       │
+│       ├── services
+│       │   └── __init__.py
+│       │
+│       ├── chat
+│       │   └── __init__.py
+│       │
+│       └── utils
+│           └── __init__.py
+│
+├── frontend
+├── Photos
+├── Versions
+└── venv
+

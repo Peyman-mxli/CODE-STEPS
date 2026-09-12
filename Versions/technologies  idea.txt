@@ -1,0 +1,10 @@
+technologies  idea:
+| Layer          | Technology                   |
+| -------------- | ---------------------------- |
+| Backend        | **Python Flask or FastAPI**  |
+| Database       | **PostgreSQL**               |
+| Realtime Chat  | **WebSockets (Socket.IO)**   |
+| Frontend       | **React**                    |
+| Mobile         | **React Native**             |
+| Desktop        | **Electron**                 |
+| Authentication | **JWT + Email Verification** |

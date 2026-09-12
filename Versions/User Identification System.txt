@@ -1,0 +1,15 @@
+User Identification System
+As you specified:
+
+a111111
+a111112
+
+Reserved:
+
+a111111 → a111300
+
+Logic:
+
+first user = a111301
+
+System automatically generates ID.

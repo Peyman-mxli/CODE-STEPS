@@ -1,0 +1,40 @@
+Chat System Design
+
+Technology:
+
+Flask-SocketIO
+Redis
+WebRTC
+
+Features by role:
+
+Normal User
+10 messages / 12 hours
+20 private messages / day
+mute users
+listen voice only
+VIP User
+unlimited messages
+private chat
+like/dislike messages
+send points
+font color change
+listen voice
+Moderator
+kick users
+mute users
+send images
+send links
+voice chat speaking
+Administrator
+ban users
+unban users
+delete messages
+edit messages
+view logs
+bad word filter
+voice speaking
+Head Admin
+all admin powers
+system monitoring
+analytics

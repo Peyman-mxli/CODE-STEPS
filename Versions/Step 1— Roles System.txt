@@ -1,0 +1,267 @@
+Step 1— Roles System
+
+My platform has 5 roles:
+
+# Role	Permissions
+1.Normal User	Limited lessons and chat
+2.VIP User	Unlimited lessons and chat
+3.Moderator	Chat moderation
+4.Administrator	Full system control
+5.Head Admin	Super administrator
+
+Role hierarchy:
+Head Admin
+   ↑
+Administrator
+   ↑
+Moderator
+   ↑
+VIP User
+   ↑
+Normal User
+
+Step 2 — User Identification System
+a111111
+a111112
+Reserved IDs:
+a111111 → a111300
+Users
+---------
+id
+identification_id
+username
+password_hash
+email
+role
+vip_status
+created_at
+Step 3 — Main Application Pages
+
+/                → Landing page
+/login           → Login
+/register        → Register
+/forgot-password
+/forgot-username
+/buy-vip
+
+User Dashboard
+
+Normal User sees:
+Dashboard
+Lessons (limited)
+Chats
+Configuration
+Progress
+Support
+Buy VIP
+Ban Info
+Logout
+
+Dashboard
+Lessons (unlimited)
+Chats
+Configuration
+Progress
+Diploma
+Support
+VIP Settings
+Logout
+
+Dashboard
+Lessons
+Chats
+Diploma
+Moderation Panel
+Configuration
+Support
+Logout
+
+Admin Dashboard
+Dashboard
+User Management
+Lessons Manager
+Chat Moderation
+Reports
+Announcements
+
+Head Admin Dashboard 
+User Management
+Lessons Manager
+Chat Moderation
+Reports
+Analytics
+System Monitoring
+Announcements
+
+Step 4 — Chat System
+
+Features you described:
+
+Normal user:
+
+10 messages per 12 hours
+20 private messages per day
+listen voice only
+mute users
+Just listen to speakers unable to speak 
+VIP:
+
+Unlimited chat
+Private chat
+Like / Dislike
+Send points
+Font color change
+Just listen to speakers unable to speak 
+
+Moderator:
+
+Mute users
+Kick normal users
+Invite users
+Send images
+Send links
+Voice chat
+speak on speakers
+
+Admin:
+
+Ban users unban users 
+Delete messages modify msg 
+View logs
+Bad word filter
+Voice chat
+speak on speakers
+
+
+Head admin
+Ban users unban users 
+Delete messages modify msg 
+View logs
+Bad word filter
+speak on speakers
+
+Step 5 — Language System
+English US
+Persian 
+Spanish 
+German
+French
+Chinese
+Hindi
+Japanese
+Portuguese
+Italian
+Arabic
+Korean
+Turkish
+Russian
+This requires internationalization (i18n).
+
+Example:
+
+/lang/en
+/lang/fa
+/lang/es
+
+tep 6 — Database Structure
+
+Main tables:
+
+users
+roles
+lessons
+homeworks
+courses
+chat_rooms
+messages
+private_messages
+bans
+reports
+notifications
+support_tickets
+vip_payments
+activity_logs
+
+
+Step 7 — Chatroom Example Flow
+
+User enters chatroom:
+
+User joined chatroom
+
+Moderator enters:
+
+Moderator Alex joined chatroom
+
+Admin enters:
+
+Admin John joined chatroom
+
+Step 8 — Phone + Web + Desktop Strategy
+
+You asked for all platforms.
+
+Best setup:
+
+Backend
+Python (Flask API)
+
+Web
+React
+
+Mobile
+React Native
+
+Desktop
+Electron
+
+This means:
+
+1 backend
+3 frontends
+
+Step 9 — Security (Very Important)
+
+Your app must include:
+
+Password hashing (bcrypt)
+Email verification
+JWT authentication
+Rate limiting
+IP banning
+Chat spam filter
+XSS protection
+CSRF protection
+
+
+Step 10 — Development Plan
+
+We should build this in stages.
+
+Phase 1
+Project setup
+Database
+User authentication
+Role system
+Phase 2
+Dashboard
+Lessons system
+Progress tracking
+Phase 3
+Realtime chat
+Chat moderation
+Private messages
+Phase 4
+VIP payments
+Support system
+Reports
+Phase 5
+Admin analytics
+Monitoring
+Mobile app
+Desktop app
+
+i want to do Flask + React  
+i want the system to support
+💳 demo payments for VIP for now but able to update it for real time  in future 
+i want voice chat real time

@@ -1,0 +1,19 @@
+Authentication System
+
+Login will use:
+
+JWT tokens
+bcrypt password hashing
+email verification
+
+Flow:
+
+Register
+↓
+Email verification
+↓
+Login
+↓
+JWT token
+↓
+Access dashboard

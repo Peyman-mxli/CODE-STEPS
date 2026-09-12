@@ -1,0 +1,21 @@
+VIP Payment (Demo Mode)
+
+For now:
+
+Fake payment gateway
+
+Example flow:
+
+Buy VIP
+↓
+Select plan
+↓
+Demo payment
+↓
+VIP activated
+
+Later you can connect:
+
+Stripe
+PayPal
+Crypto

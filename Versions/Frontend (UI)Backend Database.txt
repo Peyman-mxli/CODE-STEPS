@@ -1,0 +1,53 @@
+code_steps/
+
+backend/
+│
+├── app/
+│   ├── __init__.py
+│   ├── config.py
+│   │
+│   ├── models/
+│   │     user.py
+│   │     role.py
+│   │     lesson.py
+│   │     message.py
+│   │
+│   ├── routes/
+│   │     auth_routes.py
+│   │     user_routes.py
+│   │     lesson_routes.py
+│   │     admin_routes.py
+│   │
+│   ├── chat/
+│   │     socket_server.py
+│   │
+│   ├── services/
+│   │     auth_service.py
+│   │     chat_service.py
+│   │
+│   └── utils/
+│         security.py
+│         rate_limit.py
+│
+├── migrations/
+├── requirements.txt
+└── run.py
+
+
+frontend/
+
+├── public/
+├── src/
+│   ├── pages/
+│   │     Login.jsx
+│   │     Register.jsx
+│   │     Dashboard.jsx
+│   │
+│   ├── components/
+│   │     ChatRoom.jsx
+│   │     Navbar.jsx
+│   │
+│   ├── services/
+│   │     api.js
+│   │
+│   └── App.jsx

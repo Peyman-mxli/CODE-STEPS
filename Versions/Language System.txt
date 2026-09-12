@@ -1,0 +1,26 @@
+Language System
+
+We will use React i18n.
+
+Supported languages:
+
+en
+fa
+es
+de
+fr
+zh
+hi
+ja
+pt
+it
+ar
+ko
+tr
+ru
+
+Example structure:
+
+/locales/en.json
+/locales/fa.json
+/locales/es.json

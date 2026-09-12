@@ -1,0 +1,29 @@
+Development Roadmap
+
+We will build exactly in this order.
+
+Phase 1
+Flask backend setup
+Database models
+Authentication
+Role system
+User ID generator
+Phase 2
+React frontend
+Login / Register pages
+Dashboard system
+Language system
+Phase 3
+Realtime chat
+Private messaging
+Chat moderation
+Voice system
+Phase 4
+VIP payments
+Support tickets
+Reports
+Phase 5
+Admin analytics
+System monitoring
+Mobile app
+Desktop app

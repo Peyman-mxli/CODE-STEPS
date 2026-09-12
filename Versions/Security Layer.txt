@@ -1,0 +1,12 @@
+Security Layer
+
+Security features:
+
+bcrypt password hashing
+JWT authentication
+CSRF protection
+XSS filtering
+rate limiting
+IP ban system
+chat spam detection
+bad word filter
